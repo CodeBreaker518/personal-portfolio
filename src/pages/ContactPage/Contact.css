@@ -1,0 +1,59 @@
+.form-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  transition: all 300ms;
+}
+
+input[type='text'],
+textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  padding: 1rem;
+  min-width: 500px;
+  max-width: 500px;
+}
+
+textarea {
+  min-height: 50px;
+  max-height: 150px;
+}
+
+input[type='submit'],
+input[type='button'] {
+  padding: 1rem;
+  min-width: 300px;
+  max-width: 300px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
+  text-decoration: none;
+  padding: 1rem;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  transition: all 300ms;
+  cursor: pointer;
+}
+input[type='submit']:hover,
+input[type='button']:hover {
+  background: var(--primary-color);
+  color: var(--accent-color);
+}
+
+@media (max-width: 600px) {
+  input[type='text'],
+  textarea {
+    min-width: 100%;
+    max-width: 100%;
+  }
+  input[type='submit'],
+  input[type='button'] {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+}

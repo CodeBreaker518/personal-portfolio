@@ -1,0 +1,45 @@
+.mask-img-project {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  box-shadow: 0px 5px 15px #b6b6b6;
+  object-fit: cover;
+  transition: all 300ms;
+}
+.mask-img-project img {
+  min-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  transition: all 300ms;
+}
+.project-page .mask-img-project {
+  height: 400px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #ddd;
+}
+
+.project-technologies {
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+.project-description {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.project-link {
+  text-decoration: none;
+  padding: 0.4rem;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  line-height: 2;
+  transition: all 300ms;
+}
+.project-link:hover {
+  background: var(--primary-color);
+  color: var(--accent-color);
+}

@@ -1,0 +1,32 @@
+.section-title {
+  margin-top: 1.5rem;
+}
+.section > p {
+  padding-left: 2rem;
+}
+.section > p a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all 300ms;
+}
+.section > p a:hover {
+  color: var(--accent-color);
+}
+.section-list {
+  padding-left: 2rem;
+}
+
+.section.languages .section-list li:nth-child(1) a {
+  text-decoration: none;
+  padding: 0.4rem;
+  background: var(--accent-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  line-height: 2;
+  transition: all 300ms;
+}
+.section.languages .section-list li:nth-child(1) a:hover {
+  background: var(--primary-color);
+  color: var(--accent-color);
+}

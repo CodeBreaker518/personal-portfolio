@@ -1,0 +1,6 @@
+.layout {
+  user-select: none;
+  width: 85%;
+  margin: 0 auto;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
