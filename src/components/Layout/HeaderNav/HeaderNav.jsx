@@ -31,27 +31,27 @@ export const HeaderNav = ({ isMenuActive, onMenuToggle }) => {
         <ul className='navbar-container'>
           <li className='nav-element'>
             <NavLink to='/' onClick={menuToggle}>
-              Home
+              <span>Home</span>
             </NavLink>
           </li>
           <li className='nav-element'>
             <NavLink to='/portfolio' onClick={menuToggle}>
-              Portfolio
+              <span>Portfolio</span>
             </NavLink>
           </li>
           <li className='nav-element'>
             <NavLink to='/services' onClick={menuToggle}>
-              Services
+              <span>Services</span>
             </NavLink>
           </li>
           <li className='nav-element'>
             <NavLink to='/curriculum' onClick={menuToggle}>
-              Curriculum
+              <span>Curriculum</span>
             </NavLink>
           </li>
           <li className='nav-element'>
             <NavLink to='/contact' onClick={menuToggle}>
-              Contact
+              <span>Contact</span>
             </NavLink>
           </li>
         </ul>
