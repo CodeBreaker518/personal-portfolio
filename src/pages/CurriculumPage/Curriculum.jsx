@@ -10,7 +10,10 @@ export const Curriculum = () => {
         <article className='section experience'>
           <h2 className='section-title'>Experience</h2>
           <ul className='section-list'>
-            <li>I do not have professional experience right now but i am looking for it!</li>
+            <li>
+              Autodidact 2021 - today, personal experience throught my projects{' '}
+              <Link to='/portfolio'>Personal Proyects</Link>
+            </li>
           </ul>
         </article>
 

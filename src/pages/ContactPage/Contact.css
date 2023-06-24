@@ -10,6 +10,7 @@
 
 input[type='text'],
 textarea {
+  font-size: 1.3rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: block;
   padding: 1rem;
@@ -18,12 +19,15 @@ textarea {
 }
 
 textarea {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.2rem;
   min-height: 50px;
   max-height: 150px;
 }
 
 input[type='submit'],
 input[type='button'] {
+  font-size: 1.3rem;
   padding: 1rem;
   min-width: 300px;
   max-width: 300px;

@@ -17,15 +17,14 @@ h2 {
 
 h2 a {
   padding: 7px;
+  font-size: 1.4rem;
   border-radius: 5px;
   text-decoration: none;
   transition: all 300ms;
   font-weight: 500;
   color: var(--primary-color);
-  background: var(--accent-color);
 }
 h2 a:hover {
-  background-color: var(--primary-color);
   color: var(--accent-color);
 }
 

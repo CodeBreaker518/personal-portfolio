@@ -12,7 +12,7 @@ export const projects = [
     id: 'projectId2',
     name: 'Project Name',
     url: 'Project url',
-    technologies: [''],
+    technologies: [],
     categories: 'Project categories',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus aspernatur rem excepturi hic deleniti perferendis totam esse commodi fugit ipsum fugiat tenetur iste qui expedita, doloremque reiciendis consequatur veniam.',
@@ -21,7 +21,7 @@ export const projects = [
     id: 'projectId3',
     name: 'Project Name',
     url: 'Project url',
-    technologies: [''],
+    technologies: [],
     categories: 'Project categories',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus aspernatur rem excepturi hic deleniti perferendis totam esse commodi fugit ipsum fugiat tenetur iste qui expedita, doloremque reiciendis consequatur veniam.',
@@ -30,7 +30,7 @@ export const projects = [
     id: 'projectId4',
     name: 'Project Name',
     url: 'Project url',
-    technologies: [''],
+    technologies: [],
     categories: 'Project categories',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus aspernatur rem excepturi hic deleniti perferendis totam esse commodi fugit ipsum fugiat tenetur iste qui expedita, doloremque reiciendis consequatur veniam.',
@@ -39,7 +39,7 @@ export const projects = [
     id: 'projectId5',
     name: 'Project Name',
     url: 'Project url',
-    technologies: [''],
+    technologies: [],
     categories: 'Project categories',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus aspernatur rem excepturi hic deleniti perferendis totam esse commodi fugit ipsum fugiat tenetur iste qui expedita, doloremque reiciendis consequatur veniam.',
@@ -48,7 +48,7 @@ export const projects = [
     id: 'projectId6',
     name: 'Project Name',
     url: 'Project url',
-    technologies: [''],
+    technologies: [],
     categories: 'Project categories',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus aspernatur rem excepturi hic deleniti perferendis totam esse commodi fugit ipsum fugiat tenetur iste qui expedita, doloremque reiciendis consequatur veniam.',

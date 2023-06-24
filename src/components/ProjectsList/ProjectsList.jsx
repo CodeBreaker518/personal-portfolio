@@ -22,7 +22,7 @@ export const ProjectsList = ({ listLimit }) => {
                 ? project.technologies.map((technology) => {
                     return ` ${technology}`
                   })
-                : `There are no technologies`}
+                : ` There are no technologies`}
             </h3>
           </article>
         )
