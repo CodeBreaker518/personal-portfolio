@@ -10,9 +10,23 @@ export const Curriculum = () => {
         <article className='section experience'>
           <h2 className='section-title'>Experience</h2>
           <ul className='section-list'>
-            <li>
-              Autodidact 2021 - today, personal experience throught my projects{' '}
-              <Link to='/portfolio'>Personal Proyects</Link>
+            <li className='section-item'>
+              <h4 className='experience-title'>Soluciones Electrónicas SIMTRO</h4>
+              <p className='experience-date'>June 2023 - August 2023</p>
+              <p className='experience-info'>
+                Participation in the implementation of functionalities and resolution of little bugs in a software used
+                as shooting simulator by the Secretariat of National Defense (SEDENA) of Mexico
+              </p>
+            </li>
+            <li className='section-item'>
+              <h4 className='experience-title'>Autodidact</h4>
+              <p className='experience-date'>2021 - Today</p>
+              <p className='experience-info'>
+                Personal experience throught my projects{' '}
+                <Link className='internal-link' to='/portfolio'>
+                  Personal Proyects
+                </Link>
+              </p>
             </li>
           </ul>
         </article>

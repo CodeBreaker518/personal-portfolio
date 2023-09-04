@@ -6,7 +6,7 @@ export const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'MaterializeCSS'],
     categories: 'Web development',
     description:
-      'To do application created With ReactJS & Materialize CSS to practice concepts and using LocalStorage to save Tasks',
+      'To do application created With ReactJS & Materialize CSS to practice concepts, using LocalStorage to save Tasks',
   },
   {
     id: 'realtimeChat',
@@ -14,6 +14,6 @@ export const projects = [
     url: 'https://chat-firebase-codebreaker518.web.app/',
     technologies: ['HTML', 'CSS', 'JavaScript', 'MaterializeCSS', 'Bootstrap'],
     categories: 'Web Development',
-    description: 'Simple real time chat built using Vanilla Javascript and Firebase with Google user Authentication',
+    description: 'Real time chat built using Vanilla Javascript and Firebase with Google user Authentication',
   },
 ]

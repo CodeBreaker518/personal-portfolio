@@ -7,6 +7,11 @@ export const Services = () => {
 
       <section className='services-section'>
         <article className='service'>
+          <h2>Responsive Design</h2>
+          <p>Make a responsive design to look good on all devices</p>
+        </article>
+
+        <article className='service'>
           <h2>Web Layout</h2>
           <p>Make a layout for your web page from a design</p>
         </article>
