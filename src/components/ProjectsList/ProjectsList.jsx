@@ -17,12 +17,10 @@ export const ProjectsList = ({ listLimit }) => {
               <Link to={`/proyect/${project.id}`}>{project.name}</Link>
             </h2>
             <h3>
-              Technologies:
+              Technologies:{' '}
               {project.technologies.length > 0
-                ? project.technologies.map((technology) => {
-                    return ` ${technology}`
-                  })
-                : ` There are no technologies`}
+                ? project.technologies.slice(0, -1).join(', ') + ', ' + project.technologies.slice(-1)
+                : 'There are no technologies'}
             </h3>
           </article>
         )
