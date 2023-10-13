@@ -46,3 +46,12 @@
   background: var(--primary-color);
   color: var(--accent-color);
 }
+
+.project-links-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 2rem;
+}

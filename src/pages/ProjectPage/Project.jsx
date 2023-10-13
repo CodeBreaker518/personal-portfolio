@@ -2,6 +2,8 @@ import { useParams } from 'react-router-dom'
 import './Project.css'
 import { projects } from '../../data/projects'
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import githubLink from '../../../public/assets/github.png'
 
 export const Project = () => {
   const [project, setProject] = useState({})
@@ -28,9 +30,14 @@ export const Project = () => {
           : project.technologies}
       </p>
       <p className='project-description'>{project.description}</p>
-      <a className='project-link' href={project.url} target='_blank' rel='noreferrer'>
-        Ir al projecto
-      </a>
+      <div className='project-links-container'>
+        <a className='project-link' href={project.url} target='_blank' rel='noreferrer'>
+          Ir al projecto
+        </a>
+        <Link to={`${project.githubUrl}`} target='_blank' rel='noreferrer'>
+          <img src={githubLink} className='github-icon' alt='github link' />
+        </Link>
+      </div>
     </div>
   )
 }
