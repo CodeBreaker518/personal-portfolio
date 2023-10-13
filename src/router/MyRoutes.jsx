@@ -3,7 +3,7 @@ import './MyRoutes.css'
 import '../styles/global.css'
 import { Home } from '../pages/HomePage/Home'
 import { Portfolio } from '../pages/PortfolioPage/Portfolio'
-import { Services } from '../pages/ServicesPage/Services'
+// import { Services } from '../pages/ServicesPage/Services'
 import { Curriculum } from '../pages/CurriculumPage/Curriculum'
 import { Contact } from '../pages/ContactPage/Contact'
 import { NotFound } from '../pages/NotFoundPage/NotFound'
@@ -36,7 +36,7 @@ const AnimatedRoutes = () => {
       <Routes location={location}>
         <Route path='/' element={<Home />} />
         <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/services' element={<Services />} />
+        {/* <Route path='/services' element={<Services />} /> */}
         <Route path='/curriculum' element={<Curriculum />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/proyect/:projectId?/' element={<Project />} />

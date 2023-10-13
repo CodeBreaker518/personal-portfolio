@@ -39,11 +39,11 @@ export const HeaderNav = ({ isMenuActive, onMenuToggle }) => {
               <span>Portfolio</span>
             </NavLink>
           </li>
-          <li className='nav-element'>
+          {/* <li className='nav-element'>
             <NavLink to='/services' onClick={menuToggle}>
               <span>Services</span>
             </NavLink>
-          </li>
+          </li> */}
           <li className='nav-element'>
             <NavLink to='/curriculum' onClick={menuToggle}>
               <span>Curriculum</span>
