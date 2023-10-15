@@ -20,8 +20,18 @@ export const projects = [
       'App that allows you to have a expenses control for your daily/ monthly or yearly budget, allows you to add, filter, categorize, edit and eliminate your expenses and reset the app to start again.',
   },
   {
+    id: 'veterinaryControl',
+    name: 'VeterinaryControl',
+    url: 'https://veterinary-control.netlify.app/',
+    githubUrl: 'https://github.com/CodeBreaker518/VeterinaryControl',
+    technologies: ['HTML', 'CSS', 'TailWindCSS', 'JavaScript', 'React.js'],
+    categories: 'Web Development',
+    description:
+      'Webiste to carry and manage a veterinary, applying all CRUD operations over the patients (pets) using LocalStorage as storage',
+  },
+  {
     id: 'realtimeChat',
-    name: 'Realtime Chat Vanilla',
+    name: 'Realtime Chat Vanill',
     url: 'https://chat-firebase-codebreaker518.web.app/',
     githubUrl: 'https://github.com/CodeBreaker518/chat-firebase',
     technologies: ['HTML', 'CSS', 'JavaScript', 'MaterializeCSS', 'Bootstrap'],
@@ -33,9 +43,9 @@ export const projects = [
     name: 'Todo App',
     githubUrl: 'https://github.com/CodeBreaker518/Todo-App',
     url: 'https://todo-app-codebreaker518.netlify.app/',
-    technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'MaterializeCSS'],
+    technologies: ['HTML', 'CSS', 'JavaScript', 'React.js', 'MaterializeCSS'],
     categories: 'Web development',
     description:
-      'To do application created With ReactJS & Materialize CSS to practice concepts, using LocalStorage to save Tasks',
+      'To do application created With React.js & Materialize CSS to practice concepts, using LocalStorage to save Tasks',
   },
 ]
