@@ -3,7 +3,7 @@ import './Project.css'
 import { projects } from '../../data/projects'
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
-import githubLink from '../../../public/assets/github.png'
+import githubLink from '/assets/github.png'
 
 export const Project = () => {
   const [project, setProject] = useState({})

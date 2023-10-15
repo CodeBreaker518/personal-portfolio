@@ -10,8 +10,8 @@ export const Home = () => {
         <br />
         Student at the University of Guanajuato, Mexico.
         <br />
-        Passionate <strong>Front end web developer</strong> searching for amazing projects to collaborate and people to
-        work with as a team.
+        Passionate <strong>Front end web developer</strong> searching for amazing projects to collaborate and people to work with
+        as a team.
       </h1>
 
       <h2>

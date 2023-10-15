@@ -1,6 +1,6 @@
 import { projects } from '../../data/projects'
 import { Link } from 'react-router-dom'
-import githubLink from '../../../public/assets/github.png'
+import githubLink from '/assets/github.png'
 import './ProjectsList.css'
 
 // eslint-disable-next-line react/prop-types

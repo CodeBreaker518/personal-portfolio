@@ -10,6 +10,16 @@ export const projects = [
       'Chiteadas is a page that gets movie data from [TMDB API](https://www.themoviedb.org) and list the movies, it also allows to see the trailers of the movies (in case it has them).',
   },
   {
+    id: 'expensesControl',
+    name: 'Expenses Control',
+    url: 'https://expenses-control-codebreaker518.netlify.app/',
+    githubUrl: 'https://github.com/CodeBreaker518/expense-control',
+    technologies: ['HTML', 'CSS', 'TailwindCSS', 'JavaScript', 'React.js'],
+    categories: 'Web Development',
+    description:
+      'App that allows you to have a expenses control for your daily/ monthly or yearly budget, allows you to add, filter, categorize, edit and eliminate your expenses and reset the app to start again.',
+  },
+  {
     id: 'realtimeChat',
     name: 'Realtime Chat Vanilla',
     url: 'https://chat-firebase-codebreaker518.web.app/',
