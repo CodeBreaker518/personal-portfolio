@@ -5,7 +5,7 @@ import './Home.css'
 export const Home = () => {
   return (
     <div className='home'>
-      <h1>
+      <h1 className='presentation-text'>
         I&apos;m Diego Perez Perez.
         <br />
         Student at the University of Guanajuato, Mexico.
@@ -14,7 +14,7 @@ export const Home = () => {
         as a team.
       </h1>
 
-      <h2>
+      <h2 className='contact-info'>
         Get in Touch with me! <Link to='/contact'>Contact.</Link>
       </h2>
 

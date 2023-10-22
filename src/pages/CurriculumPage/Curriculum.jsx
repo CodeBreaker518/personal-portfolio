@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { IconExternalLink } from '@tabler/icons-react'
 import './Curriculum.css'
 
 export const Curriculum = () => {
@@ -14,8 +15,8 @@ export const Curriculum = () => {
               <h4 className='experience-title'>Soluciones Electrónicas SIMTRO</h4>
               <p className='experience-date'>June 2023 - August 2023</p>
               <p className='experience-info'>
-                Participation in the implementation of functionalities and resolution of little bugs in a software used
-                as shooting simulator by the Secretariat of National Defense (SEDENA) of Mexico
+                Participation in the implementation of functionalities and resolution of little bugs in a software used as
+                shooting simulator by the Secretariat of National Defense (SEDENA) of Mexico
               </p>
             </li>
             <li className='section-item'>
@@ -66,8 +67,8 @@ export const Curriculum = () => {
           <ul className='section-list'>
             <li>
               English - C1{' '}
-              <a target='_blank' rel='noreferrer' href='https://www.efset.org/cert/nAshmx'>
-                Certificate
+              <a className='certificate' target='_blank' rel='noreferrer' href='https://www.efset.org/cert/nAshmx'>
+                Certificate <IconExternalLink size={15} />
               </a>
             </li>
             <li>Spanish - Native</li>

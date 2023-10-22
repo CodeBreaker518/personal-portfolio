@@ -1,4 +1,4 @@
-h1 {
+.presentation-text {
   margin-top: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
@@ -9,13 +9,13 @@ strong {
   color: #ca9802;
 }
 
-h2 {
+.contact-info {
   color: rgb(83, 83, 83);
-  font-weight: lighter;
+  font-weight: 400;
   margin-top: 2rem;
 }
 
-h2 a {
+.contact-info a {
   padding: 7px;
   font-size: 1.4rem;
   border-radius: 5px;
@@ -24,16 +24,21 @@ h2 a {
   font-weight: 500;
   color: var(--primary-color);
 }
-h2 a:hover {
+.contact-info a:hover {
   color: var(--accent-color);
 }
 
+.last-projects {
+  margin-top: 2rem;
+}
+
 .heading {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 500;
   color: black;
   margin-bottom: 0px;
 }
 p {
   color: rgb(83, 83, 83);
+  font-size: 16px;
 }

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .projects-container {
   min-width: 250px;
   display: flex;
@@ -46,6 +47,8 @@
   margin-top: 5px;
 }
 .project-item h2 a {
+  text-decoration: none;
+  transition: all 300ms;
   font-weight: bold;
   font-size: 1.5rem;
   background: transparent;
@@ -61,6 +64,7 @@
   color: var(--accent-color);
 }
 .project-item h3 {
+  font-weight: 600;
   padding-top: 15px;
   display: block;
   margin-top: 0.3rem;

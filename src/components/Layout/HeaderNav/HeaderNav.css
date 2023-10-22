@@ -78,7 +78,7 @@
 .logo span {
   display: block;
   font-size: 85px;
-  font-weight: bolder;
+  font-weight: bold;
   margin-top: -11px;
 }
 .logo h3 {
@@ -105,7 +105,7 @@
 }
 .nav-element {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1rem;
   margin-left: 15px;
   margin-right: 15px;

@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     id: 'realtimeChat',
-    name: 'Realtime Chat Vanill',
+    name: 'Realtime Chat Vanilla',
     url: 'https://chat-firebase-codebreaker518.web.app/',
     githubUrl: 'https://github.com/CodeBreaker518/chat-firebase',
     technologies: ['HTML', 'CSS', 'JavaScript', 'MaterializeCSS', 'Bootstrap'],
