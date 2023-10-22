@@ -10,7 +10,7 @@
 }
 
 .contact .container {
-  height: 85vh;
+  height: 100vh;
   min-height: 500px;
   display: grid;
   grid-template-columns: 1fr;
