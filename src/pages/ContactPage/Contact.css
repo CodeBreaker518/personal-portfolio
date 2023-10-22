@@ -27,9 +27,9 @@
   width: 80%;
   max-width: 80rem;
   margin: 0 auto;
-  padding: 65px 1.5rem 0;
+  padding: 100px 1.5rem 0;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  align-items: start;
   position: relative;
   z-index: 3;
 }
@@ -188,16 +188,18 @@ textarea.contact-input ~ .icon {
   grid-column: 2;
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: start;
 }
 
 .contact-img {
+  margin-top: 100px;
   width: 700px;
   height: auto;
 }
 
 @media (max-width: 1600px) {
   .contact-img {
+    margin-top: 150px;
     width: 500px;
   }
 }
