@@ -10,7 +10,7 @@
 }
 
 .contact .container {
-  height: 80vh;
+  height: 85vh;
   min-height: 500px;
   display: grid;
   grid-template-columns: 1fr;
@@ -223,8 +223,7 @@ textarea.contact-input ~ .icon {
   }
   .form-wrapper {
     width: 100%;
-
-    min-width: 400px;
+    min-width: 250px;
     padding: 1rem 0;
   }
 }
@@ -246,7 +245,7 @@ textarea.contact-input ~ .icon {
 }
 @media (max-width: 640px) {
   .contact-heading h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .contact-heading p {
     font-size: 0.9rem;
