@@ -164,7 +164,7 @@ textarea.contact-input ~ .icon {
   display: inline-block;
   padding: 1.1rem 2rem;
   background-color: rgb(167, 167, 13);
-  color: rgb(224, 209, 209);
+  color: white;
   border-radius: 40px;
   border: none;
   font-family: 'Poppins', sans-serif;
